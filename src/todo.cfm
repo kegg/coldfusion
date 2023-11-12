@@ -10,6 +10,4 @@
 A Todo List
 </blockquote>
 
-
-</body>
 </html>
