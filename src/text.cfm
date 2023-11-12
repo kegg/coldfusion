@@ -15,9 +15,24 @@ function countLines(textarea, lines) {
 function chunkString(str, length) {
   return str.match(new RegExp('.{1,' + length + '}', 'g'));
 }
+
+function displayHide(id) {
+  var id = document.getElementById(id);
+  if (id.style.display === 'none') {
+    id.style.display = 'block';
+  } else {
+    id.style.display = 'none';
+  }
+}
 </script>
 </head>
 <body>
+
+<h1>Save Text</h1>
+
+<cfinclude template="links.cfm">
+
+<blockquote>A simple diary app.</blockquote>
 
 <cfset fileName = ExpandPath("../LICENSE")>
 <cffile variable="fileContent" action="read" file="#fileName#">
@@ -34,7 +49,8 @@ Lines: <span id="lines"></span>
 
 <br/>
 <br/>
-<pre>
+<button onClick="displayHide('license')">Show/Hide License</button>
+<pre id="license" style="display:none">
 <cfoutput>#fileContent#</cfoutput>
 </pre>
 

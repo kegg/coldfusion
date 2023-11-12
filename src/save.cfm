@@ -4,3 +4,4 @@
 </cfif>
 <cfset date = now()>
 <cfset fileWrite(expandPath(dir) & "/" & dateFormat(date, "yyyy-MM-dd-HH-mm-ss"), "#form.text#")>
+<cflocation url="text.cfm">
