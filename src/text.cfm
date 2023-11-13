@@ -36,7 +36,7 @@ function displayHide(id) {
 
 <cfset fileName = ExpandPath("../LICENSE")>
 <cffile variable="fileContent" action="read" file="#fileName#">
-<form name="form1" method="post" action="save.cfm">
+<form name="form1" method="post" action="text.save.cfm">
 <div>
 <label style="vertical-align:top;" for="text">Text</label>
 <textarea rows="10" cols="80" id="text" name="text"></textarea>

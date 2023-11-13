@@ -1,15 +1,8 @@
 <cfapplication name="testing">
 <cfset request.dsn = "cf">
-<cfset request.usr =  "coldfusion">
-<cfset request.pws = "root">
+<cfset request.usr = "coldfusion">
+<cfset request.pwd = "root">
 
 <cffunction name="onApplicationStart">
-    <cfset application.todo = createObject("component", "cfcs.todo").init()>
-</cffunction>
-
-<cffunction name="onRequestStart" output="true">
-    <cfif IsDefined("url.reload")>
-        <cfset onApplicationStart()>
-    </cfif>
-    <cfoutput>hi</cfoutput>
+    <cfset application.todo = createObject("component", "cfcs.todo").init(request.dsn, request.usr, request.pwd)>
 </cffunction>

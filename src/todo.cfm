@@ -10,4 +10,6 @@
 A Todo List
 </blockquote>
 
+<cfset q = application.todo.getAllTodos()>
+
 </html>
