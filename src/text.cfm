@@ -37,9 +37,12 @@ function displayHide(id) {
 <cfset fileName = ExpandPath("../LICENSE")>
 <cffile variable="fileContent" action="read" file="#fileName#">
 <form name="form1" method="post" action="save.cfm">
-<div style="width:700px;height:200px;">
+<div>
+<label style="vertical-align:top;" for="text">Text</label>
 <textarea rows="10" cols="80" id="text" name="text"></textarea>
-<button>Submit</button>
+</div>
+<div>
+<button style="margin-left:35px;">Submit</button>
 <input type="button" value="Cancel" onClick="location.href='index.cfm'">
 <input type="button" value="Calculate" onCLick="countChars('text', 'chars');countLines('text', 'lines')">
 Characters: <span id="chars"></span>
