@@ -2,9 +2,6 @@
 <html>
 <head>
 <title>Hello World!</title>
-<subject>Subject</subject>
-<keywords>one, two</keywords>
-<comments>Stuff</comments>
 </head>
 <body>
 <p>Hello World!</p>
