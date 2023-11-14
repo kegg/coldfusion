@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<title>ColdFusion Fun</title>
 </head>
 <body>
 
@@ -13,6 +14,7 @@ Just some interesting projects to keep my skils sharp.
 <ol>
     <li><a href="text.cfm">Save Text</a></li>
     <li><a href="todo.cfm">Todo</a></li>
+    <li><a href="doc.cfm">Working With Docs</a></li>
 </ol>
 </body>
 </html>
