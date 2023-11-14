@@ -14,7 +14,7 @@ Just some interesting projects to keep my skils sharp.
 <ol>
     <li><a href="text.cfm">Save Text</a></li>
     <li><a href="todo.cfm">Todo</a></li>
-    <li><a href="doc.cfm">Working With Docs</a></li>
+    <li>Working With Docs <a href="doc.cfm">[1]</a> <a href="doc2.cfm">[2]</a></li>
 </ol>
 </body>
 </html>
