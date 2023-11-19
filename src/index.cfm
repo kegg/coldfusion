@@ -1,11 +1,12 @@
+<cfset title = "ColdFusion Fun">
 <!doctype html>
 <html>
 <head>
-<title>ColdFusion Fun</title>
+<title><cfoutput>#title#</title>
 </head>
 <body>
 
-<h1>ColdFusion Fun</h1>
+<h1><cfoutput>#title#</cfoutput></h1>
 
 <blockquote>
 Just some interesting projects to keep my skils sharp.
