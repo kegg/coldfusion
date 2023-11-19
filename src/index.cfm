@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-<title><cfoutput>#title#</title>
+<title><cfoutput>#title#</cfoutput></title>
 </head>
 <body>
 
