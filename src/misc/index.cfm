@@ -8,6 +8,8 @@
 
 <h1><cfoutput>#title#</cfoutput></h1>
 
+<p><a href="../">Home</a></p>
+
 <blockquote>
 Just some interesting projects to keep my skils sharp.
 </blockquote>
