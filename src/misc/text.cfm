@@ -34,7 +34,7 @@ function displayHide(id) {
 
 <blockquote>A simple diary app.</blockquote>
 
-<cfset fileName = ExpandPath("../LICENSE")>
+<cfset fileName = ExpandPath("../../LICENSE")>
 <cffile variable="fileContent" action="read" file="#fileName#">
 <form name="form1" method="post" action="text.save.cfm">
 <div>
