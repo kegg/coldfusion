@@ -18,6 +18,10 @@
     </table>
 </div>
 <div id="searchField">
+    <div id="menu">
+        <a href="index.cfm">Home</a>
+        <a href="search.cfm">Search</a>
+    </div>
     <form id="search" name="search" method="post" action="search.cfm">
         <input type="search" name="searchFld" id="searchFld" placeholder="Search..."/>
         <input type="submit" name="searchBtn" value="Search" id="searchBtn"/>

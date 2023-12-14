@@ -3,6 +3,7 @@
 <cfset footerFont="Georgia, serif">
 
 <!--- Colors --->
+<cfset linkColor="000000">
 <cfset backgroundColor="d0d0d0">
 
 body {
@@ -15,6 +16,19 @@ div#body {
 
 div#header h1 {
     display:inline;
+}
+
+div#menu {
+    float:left;
+}
+
+div#menu a {
+    color:#<cfoutput>#linkColor#</cfoutput>;
+    font-variant-caps: small-caps;
+}
+
+div#menu a:hover {
+    text-decoration:none;
 }
 
 div#searchField {
@@ -34,12 +48,4 @@ div#searchField:after {
 div#footer {
     background-color:#<cfoutput>#backgroundColor#</cfoutput>;
     font-family:<cfoutput>#footerFont#</cfoutput>;
-}
-
-td#menu {
-    font-size:10pt;
-}
-
-td#menu a{
-    display:block;
 }
