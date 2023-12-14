@@ -1,3 +1,5 @@
+drop table if exists contacts;
+
 create table contacts (
     contact_id bigint not null auto_increment,
     first_name varchar(50),
