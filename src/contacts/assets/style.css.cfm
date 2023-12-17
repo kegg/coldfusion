@@ -4,6 +4,7 @@
 
 <!--- Colors --->
 <cfset linkColor="000000">
+<cfset linkHoverColor="0000ff">
 <cfset backgroundColor="d0d0d0">
 
 body {
@@ -28,6 +29,7 @@ div#menu a {
 }
 
 div#menu a:hover {
+    color:#<cfoutput>#linkHoverColor#</cfoutput>;
     text-decoration:none;
 }
 
