@@ -1,5 +1,6 @@
 <cfapplication name="testing">
 <cfset request.dsn = "cf">
+<cfset request.worldDsn = "world">
 <cfset request.usr = "root">
 <cfset request.pwd = "root">
 
