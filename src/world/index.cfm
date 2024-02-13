@@ -2,6 +2,11 @@
     select * from country;
 </cfquery>
 
+<cftable query="q" htmltable="true">
+    <cfcol header="Name" text="#name#">
+    <cfcol header="Abbr" text="<a href='#code#'>#code#</a>">
+</cftable>
+
 <table>
     <tr>
         <th>Name</th>
@@ -10,7 +15,7 @@
 <cfoutput query="q">
     <tr>
         <td>#name#</td>
-        <td>#code#</td>
+        <td><a href="">#code#</a></td>
     </tr>
 </cfoutput>
 </table>
