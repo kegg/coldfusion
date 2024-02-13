@@ -20,6 +20,7 @@
 <div id="searchField">
     <div id="menu">
         <a href="index.cfm">Home</a>
+        <a href="add.cfm">Add</a>
         <a href="search.cfm">Search</a>
     </div>
     <form id="search" name="search" method="post" action="search.cfm">
